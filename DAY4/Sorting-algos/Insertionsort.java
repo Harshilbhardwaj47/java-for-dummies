@@ -27,4 +27,10 @@ public class Insertionsort {
 			array[j + 1] = key;// and finally we have our sorted array
 		}
 	}
+	public static void printarray(int array[]) {
+		System.out.println(Arrays.toString(array));// again here we called the array class utility
+		// i personally believe that before going ahead you should master arrays and for
+		// that you need to study some sorting algorithms thats why today we will only
+		// learn about some sorting algorithms
+	}
 }
