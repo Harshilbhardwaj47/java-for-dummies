@@ -52,5 +52,14 @@ public class Mergesort {
 			k++;
 		}
 	}
+	public static void sort(int array[], int big, int end) {
+		if (big < end) {
+			int mid = (big + end) / 2;
+			sort(array, big, mid);
+			sort(array, mid + 1, end);
+			merge(array, big, mid, end);
+		}
+
+	}
 }
 
