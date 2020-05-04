@@ -11,7 +11,8 @@ public class Mergesort {
 		for (int i = 0; i < array.length; i++) {
 			array[i] = in.nextInt();
 		}
-		Mergesort ob = new Mergesort();
+		Mergesort ob = new Mergesort();// called the main class via object creation like we use to do in Scanner class 
+// for ex Scanner in = new SCanner(System.in)
 		ob.sort(array, 0, array.length - 1);
 		print(array);
 	}
@@ -19,7 +20,7 @@ public class Mergesort {
 		int l = mid - big + 1;
 		int r = end - mid;
 
-		int LeftArray[] = new int[l];
+		int LeftArray[] = new int[l];// created two array left array and right array as a sub array of our main array
 		int RightArray[] = new int[r];
 
 		for (int i = 0; i < l; ++i)
@@ -56,13 +57,13 @@ public class Mergesort {
 		if (big < end) {
 			int mid = (big + end) / 2;
 			sort(array, big, mid);
-			sort(array, mid + 1, end);
+			sort(array, mid + 1, end);   // here we are sorting the array
 			merge(array, big, mid, end);
 		}
 
 	}
 	public static void print(int array[]) {
-		System.out.println(Arrays.toString(array));
+		System.out.println(Arrays.toString(array));// here we called the array class utility to print array
 	}
 }
 
