@@ -2,7 +2,7 @@ package staircase;
 
 import java.util.Scanner;
 
-public class stcase {
+public class pattern1 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int num = in.nextInt();
