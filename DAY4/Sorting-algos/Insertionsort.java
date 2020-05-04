@@ -14,4 +14,17 @@ public class Insertionsort {
 		sort(array);// this function will sort the array
 		printarray(array);// this function will print the sorted array
 	}
+	public static void sort(int array[]) {
+		for (int i = 0; i < array.length; ++i) {
+			int key = array[i];
+			int j = i - 1;
+
+			// now here we are moving the elements one step ahead who are greater than key
+			while (j >= 0 && array[j] > key) {
+				array[j + 1] = array[j];
+				j = j - 1;
+			}
+			array[j + 1] = key;// and finally we have our sorted array
+		}
+	}
 }
