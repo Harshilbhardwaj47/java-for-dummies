@@ -61,5 +61,8 @@ public class Mergesort {
 		}
 
 	}
+	public static void print(int array[]) {
+		System.out.println(Arrays.toString(array));
+	}
 }
 
