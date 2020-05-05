@@ -1,4 +1,4 @@
-package DAY6;
+package DAY5;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -10,7 +10,7 @@ public class File5 {
 		BufferedReader br = null;
 		BufferedReader br2 = null;
 		try {
-			br = new BufferedReader(new FileReader("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\newfile.txt"));
+			br = new BufferedReader(new FileReader("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt"));
 
 			// One way of reading the file
 			System.out.println("Reading the file using readLine() method:");
