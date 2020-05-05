@@ -1,4 +1,4 @@
-package DAY6;
+package DAY5;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 public class File9 {
 	public static void main(String[] args) {
 
-		File myfile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\newfile.txt");
+		File myfile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt");
 		// changing the file mode to writable
 		myfile.setWritable(true);
 		if (myfile.canWrite()) {
