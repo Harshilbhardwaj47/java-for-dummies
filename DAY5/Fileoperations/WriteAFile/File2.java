@@ -1,4 +1,4 @@
-package DAY6;
+package DAY5;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -14,7 +14,7 @@ public class File2 {
 		try {
 			String mycontent = in.nextLine();
 			// Specify the file name and path here
-			File file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\newfile.txt");
+			File file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt");
 
 			/*
 			 * This logic will make sure that the file gets created if it is not present at
