@@ -1,4 +1,4 @@
-package DAY6;
+package DAY5;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,8 +11,8 @@ public class File10 {
 		FileOutputStream outstream = null;
 
 		try {
-			File infile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\newfile.txt");
-			File outfile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\copyfile.txt");
+			File infile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt");
+			File outfile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\copyfile.txt");
 
 			instream = new FileInputStream(infile);
 			outstream = new FileOutputStream(outfile);
