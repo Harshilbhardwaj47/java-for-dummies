@@ -1,13 +1,13 @@
-package DAY6;
+package DAY5;
 
 import java.io.File;
 
 public class File12 {
 	public static void main(String[] args) {
 		// Old File
-		File oldfile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\newfile.txt");
+		File oldfile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt");
 		// New File
-		File newfile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\renamedfile.txt");
+		File newfile = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\renamedfile.txt");
 		/*
 		 * renameTo() return boolean value It return true if rename operation is
 		 * successful
