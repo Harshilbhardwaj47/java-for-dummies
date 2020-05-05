@@ -1,4 +1,4 @@
-package DAY6;
+package DAY5;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -14,7 +14,7 @@ public class File3 {
 		String mycontent = in.nextLine();
 		try {
 			// Specify the file path here
-			file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\newfile.txt");
+			file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt");
 			fos = new FileOutputStream(file);
 
 			/*
