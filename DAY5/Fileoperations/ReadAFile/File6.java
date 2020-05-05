@@ -1,11 +1,11 @@
-package DAY6;
+package DAY5;
 
 import java.io.*;
 
 public class File6 {
 	public static void main(String[] args) {
 		// Specify the path of the file here
-		File file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\newfile.txt");
+		File file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt");
 		BufferedInputStream bis = null;
 		FileInputStream fis = null;
 
