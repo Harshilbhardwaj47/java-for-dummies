@@ -1,4 +1,4 @@
-package DAY6;
+package DAY5;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 public class File1 {
 	public static void main(String[] args) {
 		try {
-			File file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\newfile.txt");
+			File file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt");
 			/*
 			 * If file gets created then the createNewFile() method would return true or if
 			 * the file is already present it would return false
