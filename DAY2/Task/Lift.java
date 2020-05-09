@@ -24,3 +24,29 @@ public class lift{
 				System.out.println("Lift");
 				A=call;
 			}
+			else if(call-A > b-call) {
+				system.out.ptintln("Lift");
+				A=call;
+			}
+		}
+		else if(call>A && call>B) {
+			if(a-call< call-b){
+				system.out.println("Lift");
+				A=call;
+			}
+			else if (A-call > call-B) {
+				System.out.println("Lift");
+				B=call;
+			}
+			else {
+				System.out.println("Lift");
+				A=call;
+			}
+		}
+	}
+	else {
+		System.out.println("Invalid floor");
+	}
+}
+}
+
