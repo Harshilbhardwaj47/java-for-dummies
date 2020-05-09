@@ -9,3 +9,7 @@ public class lift{
 		int A=0,B=tf;
 		System.out.println("Enter the number of test cases that you want to run");
 		int test = in.nextInt();
+		for (int i = 0; i < test; i++) {
+			lift_function(lift_A, lift_B, top_floor);
+		}
+	}
