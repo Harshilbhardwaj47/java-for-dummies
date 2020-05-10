@@ -23,3 +23,18 @@ public class Sorting{
 			default: System.out.println("Invalid choice");
 		}
 	}
+public static void Insertionsort(int array[]) //function for insertion sort
+	{
+		for (int i = 0; i < array.length; ++i) {
+			int key = array[i];
+			int j = i - 1;
+
+			// now here we are moving the elements one step ahead who are greater than key
+			while (j >= 0 && array[j] > key) {
+				array[j + 1] = array[j];
+				j = j - 1;
+			}
+			array[j + 1] = key;// and finally we have our sorted array
+		}
+		System.out.println(Arrays.toString(array));
+	}
