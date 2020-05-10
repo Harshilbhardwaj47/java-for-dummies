@@ -51,3 +51,17 @@ public static void Bubblesort(int array[])  //function for bubble sort
 				}
 		System.out.println(Arrays.toString(array));
 	}
+public static void Mergesort(int array[], int big,int mid,int end)
+	{
+		int l = mid - big + 1;
+		int r = end - mid;
+
+		int LeftArray[] = new int[l];// created two array left array and right array as a sub array of our main array
+		int RightArray[] = new int[r];
+
+		for (int i = 0; i < l; ++i)
+			LeftArray[i] = array[big + i];
+
+		for (int j = 0; j < r; ++j)
+			RightArray[j] = array[mid + 1 + j];
+
