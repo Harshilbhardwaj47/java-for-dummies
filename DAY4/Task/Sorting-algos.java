@@ -11,3 +11,15 @@ public class Sorting{
 		{
 			array[i]=scan.nextInt();
 		}
+		int choice = scan.nextInt();
+		switch(choice)   //Switch case for choosing from 3 options
+		{
+			case 1: Insertionsort(array);
+				break;
+			case 2: Bubblesort(array);
+				break;
+			case 3: Mergesort(array);
+				break;
+			default: System.out.println("Invalid choice");
+		}
+	}
