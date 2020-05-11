@@ -63,3 +63,10 @@ finally {
 				System.out.println("Error in InputStream close(): " + ioe);
 			}
 		}
+str Pass2= in.nextInt();
+	if(pass==Pass2)
+	{
+		try {
+			String mycontent = in.nextLine();
+			// Specify the file name and path here
+			File file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt");
