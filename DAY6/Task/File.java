@@ -53,3 +53,13 @@ try {
 		} catch (IOException ioe) {
 			System.out.println("I/O Exception: " + ioe);
 		}
+finally {
+			try {
+				if (bis != null && fis != null) {
+					fis.close();
+					bis.close();
+				}
+			} catch (IOException ioe) {
+				System.out.println("Error in InputStream close(): " + ioe);
+			}
+		}
