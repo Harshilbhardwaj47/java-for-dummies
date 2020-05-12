@@ -33,3 +33,11 @@ class Bicycle
                 + "speed of bicycle is "+speed);
     }
 }
+
+// derived class
+class MountainBike extends Bicycle
+{
+
+    // the MountainBike subclass adds one more field
+    public int seatHeight;
+
