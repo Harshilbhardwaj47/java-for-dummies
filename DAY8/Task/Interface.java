@@ -18,4 +18,9 @@ class Bicycle implements Vehicle{
 
         gear = newGear;
     }
+// to increase speed
+    @Override
+    public void speedUp(int increment){
 
+        speed = speed + increment;
+    }
