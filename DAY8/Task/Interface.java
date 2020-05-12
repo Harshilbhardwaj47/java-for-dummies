@@ -59,3 +59,9 @@ class Bike implements Vehicle {
 
         speed = speed - decrement;
     }
+    public void printStates() {
+         System.out.println("speed: " + speed
+             + " gear: " + gear);
+    }
+
+}
