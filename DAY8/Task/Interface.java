@@ -24,3 +24,9 @@ class Bicycle implements Vehicle{
 
         speed = speed + increment;
     }
+    // to decrease speed
+    @Override
+    public void applyBrakes(int decrement){
+
+        speed = speed - decrement;
+    }
