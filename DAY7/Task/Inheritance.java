@@ -48,3 +48,11 @@ class MountainBike extends Bicycle
         super(gear, speed);
         seatHeight = startHeight;
     }
+    // the MountainBike subclass adds one more method
+    public void setHeight(int newValue)
+    {
+        seatHeight = newValue;
+    }
+
+    // overriding toString() method
+    // of Bicycle to print more info
