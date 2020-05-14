@@ -19,3 +19,8 @@ class Rectangle{         //OVERLOADING CLASS
     printArea(2.3);
 }
 }
+class Animals{        //CLASS FOR OVERRIDING
+  public void sound(){
+    System.out.println("This is parent class.");
+  }
+}
