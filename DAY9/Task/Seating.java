@@ -18,3 +18,6 @@ public class seatingarr {
 				System.out.println(seat + " " + "MS");
 			else
 				System.out.println(seat + " " + "AS");
+			}
+	}
+}
