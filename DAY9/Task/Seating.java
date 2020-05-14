@@ -9,3 +9,5 @@ public class seatingarr {
 		for (int i = 0; i < x; i++) {
 			// input the number of seat
 			int seat = in.nextInt();
+			// calculating the facing seat number
+			seat = seat + 2 * (6 - (seat - 1) % 12) - 1;
