@@ -39,3 +39,14 @@ class Monkeys extends Animals{    //inherited class 3
     System.out.println("Monkeys whoop.");
   }
 }
+class m{       //driver class with main functin
+public static void main(String[] args){
+  Animals d = new Dogs();
+  Animals c = new Cats();
+  Animals m = new Monkeys();
+  d.sound();
+  c.sound();
+  m.sound();
+}
+}
+
