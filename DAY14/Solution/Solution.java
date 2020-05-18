@@ -14,3 +14,13 @@ try{
     }
 
 
+        //This will not be executed if exception occurs
+    System.out.println("This will not be executed if exception occurs");
+
+}catch(Exception e){
+    System.out.println(e.toString());
+}
+System.out.println("Exception handling");
+	}
+
+
